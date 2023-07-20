@@ -46,18 +46,32 @@ const obtenerProductos = () => {
 };
 
 const eliminarProducto = (id) => {
-  fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce/producto/${id}`, {
-    method: 'DELETE'
+  fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce`, {
+    method: 'GET'
   })
+    .then(respuesta => respuesta.json())
+    .then(data => {
+      const producto = data.record.producto.find(item => item.id === id);
+      if (!producto) {
+        throw new Error('Producto no encontrado');
+      }
+
+      return fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce/producto/${id}`, {
+        method: 'DELETE'
+      });
+    })
     .then(respuesta => {
       if (respuesta.ok) {
         console.log('Producto eliminado correctamente');
+        // Luego de eliminar el producto, puedes volver a cargar la lista de productos actualizada
+        listaProductos();
       } else {
         console.log('Error al eliminar el producto');
       }
     })
     .catch(error => console.log(error));
 };
+
 
 const listaProductos = () => {
   obtenerProductos()
