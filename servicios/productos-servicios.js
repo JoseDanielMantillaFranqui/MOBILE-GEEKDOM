@@ -9,7 +9,7 @@ const  listaProductos = () => {
 //POST
 
 const crearProducto = (imageUrl,name,price,categoria,descripcion) => {
-    fetch("http://localhost:3000/producto", {
+    fetch("https://mobile-geekdom-server.vercel.app", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -18,7 +18,8 @@ const crearProducto = (imageUrl,name,price,categoria,descripcion) => {
             imageUrl,
             price,
             name,
-            categoria,descripcion
+            categoria,
+            descripcion
         })
     }).then(respuesta => {
         if(respuesta.ok){
