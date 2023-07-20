@@ -1,0 +1,25 @@
+.header__login {
+    order: 1;
+    text-decoration: none;
+    background-color: #c8e0fd;
+    border: 1px solid #115571;
+    color: rgb(14, 35, 60);
+    padding: 0.7rem 11%; 
+    border-radius: 5px; 
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .header__login {
+        order: 2;
+        padding: 0.5rem 3rem;
+        border-radius: 0;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .header__login {
+        order: 2;
+        padding: 0.9rem 3rem;
+        border-radius: 0;
+    }
+}

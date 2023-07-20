@@ -1,0 +1,19 @@
+.agregar__label {
+    position: relative;
+    bottom: 3.4rem;
+    left: 0.5rem;
+    color: #464646;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    transition: all 0.25s;
+    height: 0;
+}
+
+.agregar__input:not(:placeholder-shown) + .agregar__label,
+.agregar__input:focus + .agregar__label {
+  font-size: 0.875rem;
+  bottom: 4.4rem;
+  transition: all 0.25s;
+  color: #35789c;
+}

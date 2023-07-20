@@ -1,0 +1,18 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .contato {
+        flex-basis: 60%;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .contato {
+        flex-basis: 30rem;
+        margin-left: 1rem;
+    }
+}

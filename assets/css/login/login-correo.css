@@ -1,0 +1,39 @@
+.login__correo {
+    font-family: 'Nunito', sans-serif;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border:none;
+    width: 15rem;
+    transition: all 0.5s;
+    border-bottom: 3px solid transparent;
+}
+
+.login__correo::placeholder {
+    color: #a2a2a2;
+}
+
+.login__correo--error {
+    border: 1px solid red;
+}
+
+.login__correo:focus {
+    outline:none;
+    border-bottom: 3px solid #15394E;
+
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .login__correo {
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .login__correo {
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+}

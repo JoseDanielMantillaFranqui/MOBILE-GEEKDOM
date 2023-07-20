@@ -1,0 +1,21 @@
+.agregar__titulo {
+    color: #464646;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    align-self: start;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .agregar__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .agregar__titulo {
+        font-size: 2rem;
+        margin-left: 23%;
+    }
+}

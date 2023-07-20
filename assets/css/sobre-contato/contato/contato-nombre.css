@@ -1,0 +1,40 @@
+.contato__nombre {
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+    color: #464646;
+    font-weight: 400;
+}
+
+.contato__nombre::placeholder {
+    visibility: hidden;
+    color: #000;
+}
+
+.contato__nombre--label {
+    position: relative;
+    bottom: 3.4rem;
+    left: 0.5rem;
+    color: #464646;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    transition: all 0.25s;
+    height: 0;
+}
+
+.contato__nombre:focus {
+    outline: none;
+}
+
+.contato__nombre:not(:placeholder-shown) + .contato__nombre--label,
+.contato__nombre:focus + .contato__nombre--label {
+  font-size: 0.875rem;
+  bottom: 4.1rem;
+  transition: all 0.25s;
+}
+
+
+

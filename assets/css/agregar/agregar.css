@@ -1,0 +1,14 @@
+.agregar {
+    display:flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 7rem 2rem 5rem 2rem;
+    align-items: center;
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .agregar {
+        padding: 5rem 2rem 5rem 2rem;
+    }
+}
+

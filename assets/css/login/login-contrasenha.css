@@ -1,0 +1,38 @@
+.login__contrasenha {
+    font-family: 'Nunito', sans-serif;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border:none;
+    width: 15rem;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s all;
+}
+
+.login__contrasenha::placeholder {
+    color: #a2a2a2;
+}
+
+.login__contrasenha:focus {
+    outline:none;
+    border-bottom: 3px solid #15394E;
+}
+
+.login__contrasenha--error {
+    border: 1px solid red;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .login__contrasenha {
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .login__contrasenha {
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+}

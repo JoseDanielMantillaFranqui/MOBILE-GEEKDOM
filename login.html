@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>LOGIN</title>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/fonts/styles.css">
+        <link rel="stylesheet" href="./assets/css/header/header.css">
+        <link rel="stylesheet" href="./assets/css/header/header-logo.css">
+        <link rel="stylesheet" href="./assets/css/header/header-barraBusqueda.css">
+        <link rel="stylesheet" href="./assets/css/header/header-barraBusqueda(login).css">
+        <link rel="stylesheet" href="./assets/css/login/login.css">
+        <link rel="stylesheet" href="./assets/css/login/login-titulo.css">
+        <link rel="stylesheet" href="./assets/css/login/login-correo.css">
+        <link rel="stylesheet" href="./assets/css/login/login-contrasenha.css">
+        <link rel="stylesheet" href="./assets/css/login/login-boton.css">
+        <link rel="stylesheet" href="./assets/css/login/login-error.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/sobre-contato.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/sobre/sobre.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/sobre/sobre-logo.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/sobre/sobre-info.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/contato/contato.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/contato/contato-titulo.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/contato/contato-nombre.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/contato/contato-mensaje.css">
+        <link rel="stylesheet" href="./assets/css/sobre-contato/contato/contato-boton.css">
+        <link rel="stylesheet" href="./assets/css/footer/footer.css">
+        <link rel="stylesheet" href="./assets/css/footer/footer-logo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <img src="assets/img/logo.svg" alt="Logo de Daniel's Mobile Geekdom" class="header__logo">
+            <div class="header-login__barraBusqueda" tabindex="0">
+                <input type="text" class="header__barraBusqueda--input" placeholder="¿Qué deseas buscar?">
+                <div class="header__barraBusqueda--boton"><i class="icon-buscar"></i></div>
+            </div>
+        </header>
+        <main>
+            <form class="login" data-form-login>
+                <h2 class="login__titulo">Iniciar sesión</h2>
+                <input class="login__correo" type="email" placeholder="Escriba su correo electrónico" required data-correo>
+                <input class="login__contrasenha" type="password" placeholder="Escriba su contraseña" required data-contrasenha>
+                <span class="login__error" data-error>El correo o la contraseña son incorrectos</span>
+                <input type="submit" value="Entrar" class="login__boton">
+            </form>
+            <section class="sobre__contato">
+                <div class="sobre">
+                    <div class="sobre__logo">
+                        <img class="sobre__logo--img"src="./assets/img/logo.svg" alt="Logo de Daniel's Mobile Geekdom">
+                    </div>
+                    <div class="sobre__info">
+                        <ul class="sobre__info__lista">
+                            <li class="sobre__info__item"><a href="" class="sobre__info__item__link">Quienes somos</a></li>
+                            <li class="sobre__info__item"><a href="" class="sobre__info__item__link">Política de privacidad</a></li>
+                            <li class="sobre__info__item"><a href="" class="sobre__info__item__link">Programa de fidelidad</a></li>
+                            <li class="sobre__info__item"><a href="" class="sobre__info__item__link">Nuestras tiendas</a></li>
+                            <li class="sobre__info__item"><a href="" class="sobre__info__item__link">Quiero ser franquiciado</a></li>
+                            <li class="sobre__info__item"><a href="" class="sobre__info__item__link">Anuncie aquí</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <form action="" class="contato">
+                    <h1 class="contato__titulo">Hable con nosotros</h1>
+                    <input name="nombre" id="nombre" type="text" class="contato__nombre" placeholder="Nombre">
+                    <label class="contato__nombre--label" for="nombre">Nombre</label>
+                    <textarea cols="5" rows="5" class="contato__mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+                    <input type="submit" value="Enviar mensaje" class="contato__boton">
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <img src="./assets/img/logo-footer.png" alt="Logo de Daniel Franqui" class="footer__logo">
+        </footer>
+    </body>
+</html>
+<script src="./servicios/productos-login.js"></script>

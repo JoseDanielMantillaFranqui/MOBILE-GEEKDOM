@@ -1,0 +1,28 @@
+.productos__agregar {
+    background: #cff1ff;
+    border: 1px solid #15394E;
+    padding: 0.5rem 1rem;
+    color: #15394E;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    height: 50%;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .productos__agregar {
+        padding: 1rem;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .productos__agregar {
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+}

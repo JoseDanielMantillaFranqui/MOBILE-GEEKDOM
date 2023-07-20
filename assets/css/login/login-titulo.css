@@ -1,0 +1,19 @@
+.login__titulo {
+    color: #464646;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .login__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .login__titulo {
+        font-size: 2rem;
+    }
+}

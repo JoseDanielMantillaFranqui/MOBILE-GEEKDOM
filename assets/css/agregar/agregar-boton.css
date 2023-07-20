@@ -1,0 +1,29 @@
+.agregar__boton {
+    border: none;
+    background-color: #15394E;
+    padding: 1rem 2rem;
+    width:89vw;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: 0.7s all;
+}
+
+.agregar__boton:hover {
+    border: 1px solid #15394E;
+    background-color: rgb(186, 231, 253);
+    color: #15394E;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .agregar__boton {
+        width: 85vw;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .agregar__boton {
+        width: 52vw;
+    }
+}

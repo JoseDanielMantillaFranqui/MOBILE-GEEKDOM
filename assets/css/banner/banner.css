@@ -1,0 +1,16 @@
+.banner {
+    width: 100%;
+    height: 226px;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .banner {
+        height: 290px;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .banner {
+        height: 450px;
+    }
+}

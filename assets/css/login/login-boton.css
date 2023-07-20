@@ -1,0 +1,29 @@
+.login__boton {
+    border: none;
+    background-color: #15394E;
+    padding: 0.5rem 2rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: 0.7s all;
+}
+
+.login__boton:hover {
+    border: 1px solid #15394E;
+    background-color: rgb(186, 231, 253);
+    color: #15394E;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .login__boton {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .login__boton {
+        font-size: 1.2rem;
+        padding: 0.8rem 9.5rem;
+    }
+}

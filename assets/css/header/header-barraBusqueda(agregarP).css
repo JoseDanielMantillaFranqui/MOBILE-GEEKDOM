@@ -1,0 +1,35 @@
+.header-agregarP__barraBusqueda {
+    padding: 0.7rem;
+    background-color: #15394E;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    position: absolute;
+    top: 12%;
+    right: 3%;   
+}
+
+@media screen and (max-width:480px) {
+    .header-agregarP__barraBusqueda:hover > .header__barraBusqueda--input {
+     
+     width: 150px;
+ } 
+ }
+ 
+ @media screen and (min-width:481px) and (max-width:900px) {
+     .header-agregarP__barraBusqueda {
+         position:static;
+         order: 1;
+         margin-right: 15%;
+         padding: 0.5rem 1rem;
+     }
+ }
+ 
+ @media screen and (min-width:901px) and (max-width:1600px) {
+     .header-agregarP__barraBusqueda {
+         position:static;
+         order: 1;
+         margin-right: 30%;
+         padding: 0.8rem 1rem;
+     }
+ }

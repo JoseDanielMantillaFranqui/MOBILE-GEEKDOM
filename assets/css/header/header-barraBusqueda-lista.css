@@ -1,0 +1,28 @@
+.header__barraBusqueda--lista {
+    position: absolute;
+    top: 3.5rem;
+    right: 4rem;
+    background: white;
+    z-index: 1;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .header__barraBusqueda--lista {
+        width: 20%;
+        top: 4rem;
+        left: 18rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .header__barraBusqueda--lista {
+        width: 20%;
+        top: 5rem;
+        left: 30rem;
+    }
+}

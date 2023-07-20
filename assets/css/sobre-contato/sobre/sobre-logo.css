@@ -1,0 +1,26 @@
+.sobre__logo--img {
+    width: 70%;
+    align-self: center;
+}
+
+.sobre__logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .sobre__logo--img {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .sobre__logo--img {
+        width: 70%;
+    }
+
+    .sobre__logo {
+        width: 47%;
+    }
+}

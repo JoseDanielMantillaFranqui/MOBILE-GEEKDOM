@@ -1,0 +1,20 @@
+.productos__titulo {
+    font-size: 1.65rem;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(98, 75, 75);
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .productos__titulo {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .productos__titulo {
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+}

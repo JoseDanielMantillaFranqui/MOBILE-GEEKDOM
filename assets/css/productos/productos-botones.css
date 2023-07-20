@@ -1,0 +1,24 @@
+.productos__item--botones {
+    position:relative;
+    bottom: 92%;
+    left: 33%;
+}
+
+.icon-editar {
+    color: #15394E;
+    cursor: pointer;
+}
+
+.icon-editar:hover {
+    color:rgb(71, 192, 192);
+}
+
+.icon-eliminar {
+    color: #15394E;
+    cursor: pointer;
+}
+
+.icon-eliminar:hover {
+    color:red;
+}
+

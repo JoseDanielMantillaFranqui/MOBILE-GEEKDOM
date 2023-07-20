@@ -1,0 +1,38 @@
+.sobre__info__lista {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.sobre__info__item__link {
+    text-decoration: none;
+    color: #464646;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .sobre__info__lista {
+        align-items: flex-start;
+        height: 250px;
+    }
+
+    .sobre__info__item {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .sobre__info__lista {
+        align-items: flex-start;
+        height: 250px;
+        margin-left: 3rem;
+    }
+
+    .sobre__info__item {
+        margin-left: 1rem;
+    }
+}

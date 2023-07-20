@@ -1,0 +1,22 @@
+.agregar__descripcion {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+    color: #464646;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    border:none;
+    resize: none;
+    color: #15394E;
+    width: 80vw;
+}
+
+.agregar__descripcion:focus {
+    outline: none;
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .agregar__descripcion {
+        width: 50vw;
+    }
+}

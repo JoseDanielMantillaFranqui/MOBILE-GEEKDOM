@@ -1,0 +1,65 @@
+.header__barraBusqueda {
+    padding: 0.7rem;
+    background-color: #15394E;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    position: absolute;
+    top: 12%;
+    right: 3%;
+}
+
+.header__barraBusqueda--input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 0;
+    transition: 1s all;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header__barraBusqueda--input::placeholder {
+    color: #d0e6fa;
+}
+
+.header__barraBusqueda--boton {
+    margin: 0.3rem 0.3rem 0 0;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:480px) {
+   .header__barraBusqueda:hover > .header__barraBusqueda--input {
+    
+    width: 150px;
+} 
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .header__barraBusqueda {
+        position:static;
+        order: 1;
+        margin-right: 20%;
+        padding: 0.5rem 1rem;
+    }
+    .header__barraBusqueda--input {
+        width: 10rem;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .header__barraBusqueda {
+        position:static;
+        order: 1;
+        margin-right: 30rem;
+        padding: 1 1rem;
+    }
+    .header__barraBusqueda--input {
+        width: 20rem;
+        font-size: 20px;
+    }
+}
+

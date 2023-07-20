@@ -1,0 +1,16 @@
+.footer__logo {
+    width: 75%;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .footer__logo {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1600px) {
+    .footer__logo {
+        width: 20%;
+    }
+}
