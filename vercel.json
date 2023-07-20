@@ -9,6 +9,9 @@
     "routes": [
       { "src": "/api/productos", "dest": "api/productos.js" },
       { "src": "/(.*)", "dest": "index.html" }
+    ],
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
