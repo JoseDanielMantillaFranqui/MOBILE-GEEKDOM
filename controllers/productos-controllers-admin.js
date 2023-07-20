@@ -37,7 +37,7 @@ const nuevoProducto = (name, imageUrl, price, id) => {
   };
   
   const eliminarProducto = (id) => {
-    fetch(`http://localhost:3000/producto/${id}`, {
+    fetch(`https://mobile-geekdom.vercel.app/api/productos.js/${id}`, {
       method: 'DELETE'
     })
     .then(respuesta => {
@@ -51,7 +51,7 @@ const nuevoProducto = (name, imageUrl, price, id) => {
   };
   
   const listaProductos = () => {
-    fetch("http://localhost:3000/producto")
+    fetch("https://mobile-geekdom.vercel.app/api/productos.js")
       .then(respuesta => respuesta.json())
       .then(data => {
         mostrarProductos(data, productosTodos); // Mostrar todos los productos en el contenedor

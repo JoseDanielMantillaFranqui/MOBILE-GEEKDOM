@@ -28,7 +28,7 @@ const mostrarProductos = (productos, contenedor) => {
 };
 
 const listaProductos = () => {
-  fetch("http://localhost:3000/producto")
+  fetch("https://mobile-geekdom.vercel.app/api/productos.js")
     .then(respuesta => respuesta.json())
     .then(data => {
       const gamaBajaProductos = data.filter(producto => producto.categoria === "gamaBaja");
@@ -48,7 +48,7 @@ const buscarProductos = (busqueda) => {
     return;
   }
 
-  fetch("http://localhost:3000/producto")
+  fetch("https://mobile-geekdom.vercel.app/api/productos.js")
     .then(respuesta => respuesta.json())
     .then(data => {
       const productosEncontrados = data.filter(producto =>
