@@ -15,7 +15,7 @@ botonVerificar.addEventListener('submit', (evento) => {
     if (correoIngresado === correoRegistrado && contrasenhaIngresada === contrasenhaRegistrada) {
         correoEstilo.classList.remove("login__correo--error");
         contrasenhaEstilo.classList.remove("login__contrasenha-error");
-        window.location.href = "/productos-admin.html";
+        window.location.href = "productos-admin.html";
     } else {
         correoEstilo.classList.add("login__correo--error");
         contrasenhaEstilo.classList.add("login__contrasenha--error");
