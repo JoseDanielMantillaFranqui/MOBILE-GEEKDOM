@@ -1,4 +1,4 @@
-import { listaProductos, crearProducto, eliminarProducto } from '../servicios/productos.js';
+import { listaProductos, crearProducto, eliminarProducto } from '../servicios/productos-servicios.js';
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {
