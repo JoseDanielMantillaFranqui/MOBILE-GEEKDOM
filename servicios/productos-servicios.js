@@ -1,7 +1,7 @@
 //GET
 
 const  listaProductos = () => {
-   return fetch("https://mobile-geekdom.vercel.app/api/productos.js")
+   return fetch("https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto")
     .then(respuesta => respuesta.json())
     .catch(error => console.log(error))
 }
@@ -9,7 +9,7 @@ const  listaProductos = () => {
 //POST
 
 const crearProducto = (imageUrl,name,price,categoria,descripcion) => {
-    fetch("https://mobile-geekdom.vercel.app/api/productos.js", {
+    fetch("https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -31,7 +31,7 @@ const crearProducto = (imageUrl,name,price,categoria,descripcion) => {
 
 
 const eliminarProducto = (id) => {
-    return fetch(`https://mobile-geekdom.vercel.app/api/productos.js/${id}`, {
+    return fetch(`https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto/${id}`, {
         method: "DELETE"
     })
         .then(respuesta => {

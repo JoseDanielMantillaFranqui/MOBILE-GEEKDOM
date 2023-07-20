@@ -28,7 +28,7 @@ const mostrarProductos = (productos, contenedor) => {
 };
 
 const listaProductos = () => {
-  fetch("https://mobile-geekdom.vercel.app/api/productos.js")
+  fetch("https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto")
     .then(respuesta => respuesta.json())
     .then(data => {
       const gamaBajaProductos = data.filter(producto => producto.categoria === "gamaBaja");
@@ -48,7 +48,7 @@ const buscarProductos = (busqueda) => {
     return;
   }
 
-  fetch("https://mobile-geekdom.vercel.app/api/productos.js")
+  fetch("https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto")
     .then(respuesta => respuesta.json())
     .then(data => {
       const productosEncontrados = data.filter(producto =>

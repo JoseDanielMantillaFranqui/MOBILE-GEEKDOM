@@ -37,7 +37,7 @@ const nuevoProducto = (name, imageUrl, price, id) => {
   };
   
   const eliminarProducto = (id) => {
-    fetch(`https://mobile-geekdom.vercel.app/api/productos.js/${id}`, {
+    fetch(`https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto/${id}`, {
       method: 'DELETE'
     })
     .then(respuesta => {
@@ -51,7 +51,7 @@ const nuevoProducto = (name, imageUrl, price, id) => {
   };
   
   const listaProductos = () => {
-    fetch("https://mobile-geekdom.vercel.app/api/productos.js")
+    fetch("https://api.jsonbin.io/v3/b/64b9a39e8e4aa6225ec10860/producto")
       .then(respuesta => respuesta.json())
       .then(data => {
         mostrarProductos(data, productosTodos); // Mostrar todos los productos en el contenedor
