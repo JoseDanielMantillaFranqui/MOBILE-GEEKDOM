@@ -56,7 +56,7 @@ const eliminarProducto = (id) => {
         throw new Error('Producto no encontrado');
       }
 
-      return fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce/producto/${id}`, {
+      return fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce`, {
         method: 'DELETE'
       });
     })
