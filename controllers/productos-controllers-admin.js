@@ -37,7 +37,7 @@ const mostrarProductos = (productos, contenedor) => {
 };
 
 const obtenerProductos = () => {
-  return fetch('https://mobile-geekdom-default-rtdb.firebaseio.com/producto')
+  return fetch('https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce')
     .then(response => response.json())
     .then(data => {
       return data.record.producto;
@@ -46,15 +46,10 @@ const obtenerProductos = () => {
 };
 
 const eliminarProducto = (id) => {
-  const apiKey = 'tu_llave_maestra'; // Reemplaza 'tu_llave_maestra' con tu propia llave maestra
-  const binId = '64b9a9918e4aa6225ec109ce'; // Reemplaza con el ID de tu bin
 
   // Procedemos a eliminar el producto sin especificar una versión
-  fetch(`https://api.jsonbin.io/v3/b/${binId}/record/${id}`, {
-    method: 'DELETE',
-    headers: {
-      'X-Master-Key': apiKey
-    }
+  fetch(`https://api.npoint.io/8802dae39538cbec3cd0${id}`, {
+    method: 'DELETE'
   })
     .then(respuesta => {
       if (respuesta.ok) {

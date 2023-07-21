@@ -3,10 +3,146 @@
     {
       "imageUrl": "https://www.alkomprar.com/medias/7705946476508-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyNzIxMTN8aW1hZ2UvanBlZ3xhR1F3TDJnM09TOHhNelEyTWpNd05UVXpPREEzT0M4M056QTFPVFEyTkRjMk5UQTRYekF3TVY4M05UQlhlRGMxTUVnfDM5MTc0ZmM1ZDU0MjljYTJmODRjMDdmMGQ1ZmEwM2FjYTQwOWY3OTAyMTE4YmM1ZmViZTk2Yzc2MGNkOWIzMWI",
       "price": "$469.900",
-      "name": "Kalley Black g2",
+      "name": "KALLEY BLACK G2",
       "categoria": "gamaBaja",
       "descripcion": "https://www.alkomprar.com/celular-kalley-black-g2-4-64gb-azul/p/7705946476508",
+      "id": 1
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-840023244094-001.jpg?context=bWFzdGVyfGltYWdlc3wzMDI5NzZ8aW1hZ2UvanBlZ3xhRGRtTDJobU5DOHhNemN6TmpVNE5qTTBOalV5Tmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2T0RRd01ESXpNalEwTURrMFh6QXdNUzVxY0djfDdlNjdiNTAzOGE4ZGZmMDI2ZGY0NGZlYmY1M2NlOGQ0ZjJiOTc0ZGZmMzcxZDEyNGM2ZDM4YTNkNThmNDliYTE",
+      "price": "$419.900",
+      "name": "MOTOROLA E13",
+      "categoria": "gamaBaja",
+      "descripcion": "https://www.alkomprar.com/celular-motorola-e13-64gb-verde/p/840023244094",
+      "id": 2
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-6941812723951-001.jpg?context=bWFzdGVyfGltYWdlc3wyMDIxNTZ8aW1hZ2UvanBlZ3xhREExTDJobU1pOHhNemN4TnpRek1EUTJPRFl6T0M4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TmprME1UZ3hNamN5TXprMU1WOHdNREV1YW5Cbnw2MTY2YTRlODI4NjZiNTcxZWIyNjVlYmU0YTBiNzU3ZmVjNTU3ZTg4YTBkMTJlNGFiMzk2NTJhMzFhM2JiYTU3",
+      "price": "$429.900",
+      "name": "XIAOMI REDMI A2",
+      "categoria": "gamaBaja",
+      "descripcion": "https://www.alkomprar.com/celular-xiaomi-redmi-a2-32gb-negro/p/6941812723951",
       "id": 3
-    }
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/4894461934969-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wzNzMzMjV8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3pNQzlvTlRNdk1UTXlPVGt4T0Rjd09EazBNemd1YW5CbnxlYTUyOWZiYzhiYzY0MmRmMDFjNWIxZDA0YjYyMDYzMzY2NmQ5MTJiMGMyM2I3NDdlZGYwMzY1ZGZjZWI2YzY1",
+      "price": "$199.900",
+      "name": "ALCATEL 1",
+      "categoria": "gamaBaja",
+      "descripcion": "https://www.alkomprar.com/celular-alcatel-1-32gb-azul/p/4894461934969",
+      "id": 4
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-6941764411869-001.jpg?context=bWFzdGVyfGltYWdlc3wxODM3OTh8aW1hZ2UvanBlZ3xhRGxtTDJoaU1TOHhNemMxTlRVd01qSTVOekV4T0M4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TmprME1UYzJORFF4TVRnMk9WOHdNREV1YW5Cbnw1YThlZTIwODdjNjY2ZGNkMDljNDk0NWY0NTE1MjczYzJiNmVlOTNhODhmNDcwMzNjNTEyYWVlZjZhZGQzZmYw",
+      "price": "$399.900",
+      "name": "REALME C3O",
+      "categoria": "gamaBaja",
+      "descripcion": "https://www.alkomprar.com/celular-realme-c30s-64gb-negro/p/6941764411869",
+      "id": 5
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-8806094843613-001.jpg?context=bWFzdGVyfGltYWdlc3wxODg2NTJ8aW1hZ2UvanBlZ3xhREpoTDJnMVpTOHhNemN5TkRZeE9ETXlOakEwTmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2T0Rnd05qQTVORGcwTXpZeE0xOHdNREV1YW5CbnxjNzJmNjQ4ODAxNGNhOWE0OTNjYjY3NWE4OWM2MWMwOGJhYjEwNjcxZWMyZTZkNmFhNmEzMWQ4ZTA0NDg5MDA0",
+      "price": "$799.900",
+      "name": "SAMSUNG GALAXY A14",
+      "categoria": "gamaBaja",
+      "descripcion": "https://www.alkomprar.com/celular-samsung-galaxy-a14-128gb-plateado/p/8806094843613",
+      "id": 6
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-6932169324717-001.jpg?context=bWFzdGVyfGltYWdlc3wxNDk1MzZ8aW1hZ2UvanBlZ3xhREppTDJnM055OHhNemN3TlRnNE1qZ3lPRGd6TUM4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2Tmprek1qRTJPVE15TkRjeE4xOHdNREV1YW5Cbnw5MGQ5OGZhNmQ3MDMzYjEzYWRiMDQwZTIwOGJjOGE0MmEyNzllM2YxNTRlNDliYmM5MjM5OTg1YjdjZDgxMjU0",
+      "price": "$1.899.900",
+      "name": "OPPO RENO 7",
+      "categoria": "gamaMedia",
+      "descripcion": "https://www.alkomprar.com/celular-oppo-reno-7-256gb-dorado/p/6932169324717",
+      "id": 7
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-8806094837209-001.jpg?context=bWFzdGVyfGltYWdlc3wxNTYwNjF8aW1hZ2UvanBlZ3xhR05oTDJneU5DOHhNemN4TVRBd09UUXhOVEU1T0M4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2T0Rnd05qQTVORGd6TnpJd09WOHdNREV1YW5CbnxjNGYxYzU2OGJkZjk5YjlhMmRkMmQ5YzMzNjJiZTYwZDUwNDE0Y2U2MmNiNjMxMDc2NjM1YjhkODIxZDJkNmVl",
+      "price": "$2.199.090",
+      "name": "SAMSUNG GALAXY A54",
+      "categoria": "gamaMedia",
+      "descripcion": "https://www.alkomprar.com/celular-samsung-galaxy-a54-5g-128gb-blanco/p/8806094837209",
+      "id": 8
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/840023236600-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxOTA4MTl8aW1hZ2UvanBlZ3xhRE0wTDJnMk9TOHhNelExTlRVNE1qQXpOVGs1T0M4NE5EQXdNak15TXpZMk1EQmZNREF4WHpjMU1GZDROelV3U0F8YzQ0ZjEwMDE3Y2Q3MTQ4ZDBiMjkzNDNmNmY3ODEyNmQyNjViMWIwOTE4NjU3M2U1NGNiZmI0ZTgxM2M5OGQ1MA",
+      "price": "$1.599.900",
+      "name": "MOTOROLA EDGE 30 NEO",
+      "categoria": "gamaMedia",
+      "descripcion": "https://www.alkomprar.com/celular-motorola-edge-30-neo-128gb-morado/p/840023236600",
+      "id": 9
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/6935117855684-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyMjIxNjZ8aW1hZ2UvanBlZ3xhRGs0TDJnMk9TOHhNelExTVRRMk1EVXdPVGN5Tmk4Mk9UTTFNVEUzT0RVMU5qZzBYekF3TVY4M05UQlhlRGMxTUVnfGNiOWZiZjkxYWUzYWFhYWZhNDFhOWM3M2IxYzM5OGJmZGQ3MjAyOTIyMjM2MGZjY2Y0ZjcyMDQ5NWQ3YTI0YzU",
+      "price": "$1.399.900",
+      "name": "VIVO Y35",
+      "categoria": "gamaMedia",
+      "descripcion": "https://www.alkomprar.com/celular-vivo-y35-128gb-8gb-dorado/p/6935117855684",
+      "id": 10
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-6941487285624-001.jpg?context=bWFzdGVyfGltYWdlc3wxOTQ1OTB8aW1hZ2UvanBlZ3xhR0V6TDJoa1ppOHhNell3TWpNME16ZzNPRFk0Tmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TmprME1UUTROekk0TlRZeU5GOHdNREV1YW5CbnxmM2YxZDhjY2NlMzgxMzRjYjQ5ZDEzYjA5NGRhMTgzNTE2ZWYxZjRmZGI4ZjY1ZTA1MjMxY2E1NmFlNmMxNmVi",
+      "price": "$1.499.900",
+      "name": "HUAWEI NOVA 10 SE",
+      "categoria": "gamaMedia",
+      "descripcion": "https://www.alkomprar.com/celular-huawei-nova-10-se-8g-128gb-plateado/p/6941487285624",
+      "id": 11
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-4895180799761-001.jpg?context=bWFzdGVyfGltYWdlc3wyMjY4NDN8aW1hZ2UvanBlZ3xhRGhpTDJoak5TOHhNemc1TmpjNE16ZzFOVFkwTmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TkRnNU5URTRNRGM1T1RjMk1WOHdNREV1YW5CbnwxMzRhMTI5NDk2ZDdmZjIzOWYyNWQ5ODIyMjQ1MTkwZDBiZjczYmMwMmE4OWE4YTVjMmM4ODU5N2FkNjA1ODZk",
+      "price": "$1.999.900",
+      "name": "TECNO CAMON 20",
+      "categoria": "gamaMedia",
+      "descripcion": "https://www.alkomprar.com/celular-tecno-camon-20-8-256gb-negro/p/4895180799761",
+      "id": 12
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-194253486770-001.jpg?context=bWFzdGVyfGltYWdlc3wxNTYwNzd8aW1hZ2UvanBlZ3xhRGt4TDJobU9DOHhNell4T1RBMk1UZzRNamt4TUM4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TVRrME1qVXpORGcyTnpjd1h6QXdNUzVxY0djfGVjNWU5NzI0MThjNDU4MjU4NTk3ZTkyNmRlMjViZjRiYTU1NmFiOTBhYjYxMjYzYTg5ZTc4YzI1ZDA0OTMwMjM",
+      "price": "$6.419.900",
+      "name": "iPHONE 14 PRO MAX",
+      "categoria": "gamaAlta",
+      "descripcion": "https://www.alkomprar.com/iphone-14-pro-max-128gb-morado-oscuro/p/194253486770",
+      "id": 13
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-8806094711417-001.jpg?context=bWFzdGVyfGltYWdlc3wyMTkzMzl8aW1hZ2UvanBlZ3xhREk0TDJneU55OHhNelk0T1RJeU5Ua3dOREUxT0M4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2T0Rnd05qQTVORGN4TVRReE4xOHdNREV1YW5CbnwzNThkNmI0MTM2MDlhODRmZDA0OWY0YTNjNTEyNGY1Y2Y1NTAyZWQ0Mzc0NTBjZjQ1ZDQwNDMwZDJmMWU5MmU4",
+      "price": "$6.999.900",
+      "name": "SAMSUNG S23 ULTRA",
+      "categoria": "gamaAlta",
+      "descripcion": "https://www.alkomprar.com/celular-samsung-galaxy-s23ultra-5g-256gb-verde/p/8806094711417",
+      "id": 14
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/6934177797590-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyMjc3NTR8aW1hZ2UvanBlZ3xhRGhrTDJoa05DOHhNelF6TnpFd01ETTVNalEzT0M4Mk9UTTBNVGMzTnprM05Ua3dYekF3TVY4M05UQlhlRGMxTUVnfDc5NzFkNjNmYmM5YmEwNzg1YTczNjI1OTEyMzU4NDAxZmZjNDdhYmE5NjM2MjJhNmJjNWExYjNhMGY4OWQxZWI",
+      "price": "$3.599.900",
+      "name": "XIAOMI 12T PRO",
+      "categoria": "gamaAlta",
+      "descripcion": "https://www.alkomprar.com/celular-xiaomi-12t-pro-256gb-negro/p/6934177797590",
+      "id": 15
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-840023241710-001.jpg?context=bWFzdGVyfGltYWdlc3wyMjc5MTF8aW1hZ2UvanBlZ3xhR1prTDJnMk15OHhNelUyTlRZNE1UUXdNVGc0Tmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2T0RRd01ESXpNalF4TnpFd1h6QXdNUzVxY0djfDZhYzc5ZGNjZjJjNjQ2NjdiMmEwOTllMzAwMzk2ZjRkNDlkNGU1ZTI5ZDY2ZmIyOWQ2NGQ3Zjg5MzQ4YzRkMDQ",
+      "price": "$2.999.900",
+      "name": "MOTOROLA EDGE FUSION",
+      "categoria": "gamaAlta",
+      "descripcion": "https://www.alkomprar.com/celular-motorola-edge-fusion-256gb-5g-blanco/p/840023241710",
+      "id": 16
+    },
+    {
+      "imageUrl": "https://img01.huaweifile.com/sg/ms/co/pms/uomcdn/CO_HW_B2C/pms/202212/gbom/6941487280520/800_800_7C2329B5086CF3665C5FC7F764DE5190mp.png",
+      "price": "$4.699.900",
+      "name": "HUAWEI MATE 50 PRO",
+      "categoria": "gamaAlta",
+      "descripcion": "https://www.alkomprar.com/celular-huawei-mate-50-pro-256gb-plateado-reloj/p/7708470967412",
+      "id": 17
+    },
+    {
+      "imageUrl": "https://www.alkomprar.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-4895180793813-001.jpg?context=bWFzdGVyfGltYWdlc3wyNDQyNzZ8aW1hZ2UvanBlZ3xhR1ZpTDJnMllTOHhNelkyTVRrMk5UYzBOakl3Tmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TkRnNU5URTRNRGM1TXpneE0xOHdNREV1YW5CbnxlMzQ1Nzc4MzRiNDFhNTUxNDE0MWIzMjkyZDJkNTM3MTViZTEzNGRhZjAwMjBkYWIzYjVlYzhmZThmOWI0MTg1",
+      "price": "$5.999.900",
+      "name": "TECNO PHANTOM X2 PRO",
+      "categoria": "gamaAlta",
+      "descripcion": "https://www.alkomprar.com/celular-tecno-phantom-x2-pro-ad9-5g-256gb-naranja/p/4895180793813",
+      "id": 18
+    },
   ]
 }

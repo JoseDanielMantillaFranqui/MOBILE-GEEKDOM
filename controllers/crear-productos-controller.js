@@ -1,7 +1,7 @@
 import { productoServicios } from "../servicios/productos-servicios.js";
 
 const form = document.querySelector('[data-form]');
-const productosTodos = document.querySelector("[data-product-todos]");
+var productosTodos = document.querySelector('[data-product-todos]');
 
 form.addEventListener("submit", (evento) => {
     evento.preventDefault();

@@ -3,15 +3,20 @@ const listaProductos = () => {
     return fetch('https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce')
       .then(response => response.json())
       .then(data => {
-        return data.record.producto;
+        return data.producto;
       })
       .catch(error => console.log(error));
   };
   
   // POST
   const crearProducto = (imageUrl, name, price, categoria, descripcion) => {
+    const apiKey = '$2b$10$lYSCOVJ15vrKFZaC3enXSuuGWk1oRO7xStb2OpQ34Ykdw9RswQfQG'; // Reemplaza 'tu_llave_maestra' con tu propia llave maestra
     return fetch('https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce', {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Master-Key': apiKey
+      },
       body: JSON.stringify({
         producto: [
           {
@@ -36,20 +41,13 @@ const listaProductos = () => {
   
   // DELETE
   const eliminarProducto = (id) => {
-    return fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce`, {
-      method: 'GET'
+    const apiKey = '$2b$10$lYSCOVJ15vrKFZaC3enXSuuGWk1oRO7xStb2OpQ34Ykdw9RswQfQG'; // Reemplaza 'tu_llave_maestra' con tu propia llave maestra
+    return fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce/${id}`, {
+      method: 'DELETE',
+      headers: {
+        'X-Master-Key': apiKey
+      }
     })
-      .then(response => response.json())
-      .then(data => {
-        const producto = data.record.producto.find(item => item.id === id);
-        if (!producto) {
-          throw new Error('Producto no encontrado');
-        }
-  
-        return fetch(`https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce/${producto.id}`, {
-          method: 'DELETE'
-        });
-      })
       .then(respuesta => {
         if (respuesta.ok) {
           console.log('Producto eliminado en el servidor');
