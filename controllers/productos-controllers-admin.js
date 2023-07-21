@@ -37,38 +37,41 @@ const mostrarProductos = (productos, contenedor) => {
 };
 
 const obtenerProductos = () => {
-  // Obtener una referencia a la base de datos de Firebase
-  const database = firebase.database();
-  // Obtener una referencia a la ubicación de los productos en la base de datos
-  const productosRef = database.ref('productos');
-
-  // Obtener los datos de la ubicación 'productos'
-  return productosRef.once('value')
-    .then(snapshot => {
-      // Convertir el resultado en un array de productos
-      const data = snapshot.val();
-      const productos = Object.values(data);
-      return productos;
+  return fetch('https://mobile-geekdom-default-rtdb.firebaseio.com/producto')
+    .then(response => response.json())
+    .then(data => {
+      return data.record.producto;
     })
     .catch(error => console.log(error));
 };
 
 const eliminarProducto = (id) => {
+  const apiKey = 'tu_llave_maestra'; // Reemplaza 'tu_llave_maestra' con tu propia llave maestra
+  const binId = '64b9a9918e4aa6225ec109ce'; // Reemplaza con el ID de tu bin
 
-  // Obtener una referencia al producto que se quiere eliminar
-  const database = firebase.database();
-  const productoRef = database.ref(`productos/${id}`);
-
-  // Eliminar el producto utilizando el método remove() de Firebase Realtime Database
-  return productoRef.remove()
-    .then(() => {
-      console.log('Producto eliminado en el servidor');
+  // Procedemos a eliminar el producto sin especificar una versión
+  fetch(`https://api.jsonbin.io/v3/b/${binId}/record/${id}`, {
+    method: 'DELETE',
+    headers: {
+      'X-Master-Key': apiKey
+    }
+  })
+    .then(respuesta => {
+      if (respuesta.ok) {
+        console.log('Producto eliminado en el servidor');
+      } else {
+        throw new Error('No se pudo eliminar el producto en el servidor');
+      }
     })
     .catch(error => {
       console.log(error);
       throw new Error('Error al eliminar el producto');
     });
 };
+
+
+
+
 
 const listaProductos = () => {
   obtenerProductos()
