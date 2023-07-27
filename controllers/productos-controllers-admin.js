@@ -37,10 +37,10 @@ const mostrarProductos = (productos, contenedor) => {
 };
 
 const obtenerProductos = () => {
-  return fetch('https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce')
+  return fetch('https://mobile-geekdom-api.onrender.com/producto')
     .then(response => response.json())
     .then(data => {
-      return data.record.producto;
+      return data;
     })
     .catch(error => console.log(error));
 };
@@ -48,7 +48,7 @@ const obtenerProductos = () => {
 const eliminarProducto = (id) => {
 
   // Procedemos a eliminar el producto sin especificar una versión
-  fetch(`https://api.npoint.io/8802dae39538cbec3cd0${id}`, {
+  fetch(`https://mobile-geekdom-api.onrender.com/producto/${id}`, {
     method: 'DELETE'
   })
     .then(respuesta => {

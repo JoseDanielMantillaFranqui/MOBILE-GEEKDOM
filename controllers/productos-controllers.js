@@ -28,10 +28,10 @@ const mostrarProductos = (productos, contenedor) => {
 };
 
 const obtenerProductos = () => {
-  return fetch('https://api.jsonbin.io/v3/b/64b9a9918e4aa6225ec109ce')
+  return fetch('https://mobile-geekdom-api.onrender.com/producto')
     .then(response => response.json())
     .then(data => {
-      return data.record.producto;
+      return data;
     })
     .catch(error => console.log(error));
 };
