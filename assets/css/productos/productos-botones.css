@@ -4,6 +4,10 @@
     left: 33%;
 }
 
+.productos__item--botonEditar {
+    text-decoration: none;
+}
+
 .icon-editar {
     color: #15394E;
     cursor: pointer;

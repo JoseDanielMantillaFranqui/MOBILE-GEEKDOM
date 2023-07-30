@@ -53,10 +53,36 @@ const listaProductos = () => {
         throw new Error('Error al eliminar el producto');
       });
   };
+
+  //PUT
+
+  const detalleProducto = (id) => {
+    return fetch(`https://mobile-geekdom-api.onrender.com/producto/${id}`).then((respuesta) => respuesta.json());
+  }
+
+  const actualizarProducto = (imageUrl,price,name,categoria,descripcion,id) => {
+    return fetch(`https://mobile-geekdom-api.onrender.com/producto/${id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        imageUrl,
+        price,
+        name,
+        categoria,
+        descripcion
+      })
+    })
+    .then(respuesta => respuesta)
+    .catch((err) => console.log(err))
+  }
   
   export const productoServicios = {
     listaProductos,
     crearProducto,
-    eliminarProducto
+    eliminarProducto,
+    detalleProducto,
+    actualizarProducto
   };
   
