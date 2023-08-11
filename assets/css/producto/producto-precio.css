@@ -1,0 +1,13 @@
+.producto__precio {
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(98, 75, 75);
+    margin: 0 0 1rem 0;
+    font-weight: 700;
+}
+
+@media screen and (min-width:900px) and (max-width:1600px) {
+    .producto__precio {
+        font-size: 1.5rem;
+    }
+}

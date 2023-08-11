@@ -1,0 +1,21 @@
+.producto {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .producto {
+        flex-wrap: wrap;
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1600px) {
+    .producto {
+        flex-wrap: wrap;
+        height: 30rem;
+        justify-content: center;
+        padding: 2rem 11rem
+    }
+}

@@ -2,7 +2,7 @@ import { productoServicios } from "../servicios/productos-servicios.js";
 
 const formulario = document.querySelector("[data-form]");
 
-const obtenerInformacion =     () => {
+const obtenerInformacion = () => {
     const url = new URL(window.location);
     const id = url.searchParams.get("id");
 

@@ -54,7 +54,7 @@
     .header__barraBusqueda {
         position:static;
         order: 1;
-        margin-right: 30rem;
+        margin-right: 25%;
         padding: 1 1rem;
     }
     .header__barraBusqueda--input {

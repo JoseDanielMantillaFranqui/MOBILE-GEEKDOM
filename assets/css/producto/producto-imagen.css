@@ -1,0 +1,16 @@
+.producto__imagen {
+    width: 100%;
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .producto__imagen {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1600px) {
+    .producto__imagen {
+        width: 40%;
+        min-width: 400px;
+    }
+}
