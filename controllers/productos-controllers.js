@@ -1,4 +1,4 @@
-const nuevoProducto = (name, imageUrl, price, id) => {
+const nuevoProducto = (name, imageUrl, price,id) => {
   const card = document.createElement('li');
   card.classList.add('productos__item');
   const contenido = `
@@ -21,8 +21,8 @@ const mostrarProductos = (productos, contenedor) => {
   contenedor.innerHTML = ''; // Limpiar el contenido existente antes de mostrar los productos
 
   productos.forEach(producto => {
-    const { name, imageUrl, price, descripcion, id } = producto;
-    const card = nuevoProducto(name, imageUrl, price, descripcion, id);
+    const { name, imageUrl, price, id } = producto;
+    const card = nuevoProducto(name, imageUrl, price, id);
     contenedor.appendChild(card);
   });
 };
