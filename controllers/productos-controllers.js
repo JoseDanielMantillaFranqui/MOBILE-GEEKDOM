@@ -16,6 +16,9 @@ const productosGamaBaja = document.querySelector('[data-product-gamaBaja]');
 const productosGamaMedia = document.querySelector('[data-product-gamaMedia]');
 const productosGamaAlta = document.querySelector('[data-product-gamaAlta]');
 const barraLista = document.querySelector('[data-barra-lista]');
+const cargando = document.querySelector('[data-cargando]');
+const cargandoContainer = document.querySelector('[data-cargando-container]');
+const cargandoParrafo = document.querySelector('[data-cargando-enunciado]')
 
 const mostrarProductos = (productos, contenedor) => {
   contenedor.innerHTML = ''; // Limpiar el contenido existente antes de mostrar los productos
@@ -31,6 +34,9 @@ const obtenerProductos = () => {
   return fetch('https://mobile-geekdom-api.onrender.com/producto')
     .then(response => response.json())
     .then(data => {
+      cargando.style.display = 'none';
+      cargandoContainer.style.display = 'none';
+      cargandoParrafo.style.display = 'none';
       return data;
     })
     .catch(error => console.log(error));

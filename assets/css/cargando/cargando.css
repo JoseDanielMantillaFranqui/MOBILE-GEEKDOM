@@ -1,0 +1,27 @@
+.cargando {
+    position: fixed;
+    width: 98.8vw;
+    height: 110vh;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cargando__container {
+    width: 320px;
+    height: 300px;
+    background-color: #eeecec;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cargando__enunciado {
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #5c5c5c;
+}
