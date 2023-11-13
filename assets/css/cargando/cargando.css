@@ -1,27 +1,19 @@
 .cargando {
-    position: fixed;
     width: 98.8vw;
-    height: 110vh;
-    top: 0;
-    left: 0;
+    height: 200px;
     display: grid;
     place-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .cargando__container {
-    width: 320px;
-    height: 300px;
+    width: 200px;
+    height: 150px;
     background-color: #eeecec;
     border-radius: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-}
-
-.cargando__enunciado {
-    font-size: 2.5rem;
-    font-family: 'Nunito', sans-serif;
-    color: #5c5c5c;
 }
