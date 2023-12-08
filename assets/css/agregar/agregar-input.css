@@ -22,8 +22,17 @@
     visibility: hidden;
 }
 
+.agregar__input--select {
+    width: 88vw;
+    padding: 1rem 1rem 0.5rem 0.4rem;
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width:901px) and (max-width:1600px) {
     .agregar__input {
         width: 50vw;
+    }
+    .agregar__input--select {
+        width: 52vw;
     }
 }
