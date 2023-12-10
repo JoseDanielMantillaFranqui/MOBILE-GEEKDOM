@@ -47,8 +47,12 @@
                     <label for="url-img" class="agregar__label">URL de imagen</label>
                 </div>
                 <div class="agregar__container">
-                    <input type="text" class="agregar__input" id="categoria" placeholder="Categoría" data-categoria>
-                    <label for="categoria" class="agregar__label">Categoría</label>
+                    <select class="agregar__input agregar__input--select" id="categoria" name="categoria" data-categoria>
+                        <option value="" disabled selected>Selecciona categoría</option>
+                        <option value="gamaBaja">Gama Baja</option>
+                        <option value="gamaMedia">Gama Media</option>
+                        <option value="gamaAlta">Gama Alta</option>
+                    </select>
                 </div>
                 <div class="agregar__container">
                     <input type="text" class="agregar__input" id="nombre" placeholder="Nombre del Producto" data-nombre>
