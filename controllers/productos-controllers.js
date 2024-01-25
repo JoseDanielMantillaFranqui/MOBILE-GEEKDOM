@@ -81,7 +81,9 @@ inputBusqueda.addEventListener('input', (event) => {
 
 // Agregar evento "blur" al input para limpiar el contenido del contenedor "barraLista"
 inputBusqueda.addEventListener('blur', () => {
-  barraLista.innerHTML = '';
+  setTimeout(() => {
+    barraLista.innerHTML = '';
+  }, 200);
 });
 
 // Llamar a la función listaProductos para mostrar los productos al cargar la página

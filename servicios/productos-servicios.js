@@ -1,9 +1,9 @@
 // GET
-const listaProductos = () => {
-    return fetch('https://my-json-server.typicode.com/JoseDanielMantillaFranqui/MOBILE-GEEKDOM-jsonserver/db')
+const obtenerListaProductos = () => {
+    return fetch('https://mobile-geekdom-api.onrender.com/producto')
       .then(response => response.json())
       .then(data => {
-        return data.producto;
+        return data;
       })
       .catch(error => console.log(error));
   };
@@ -79,7 +79,7 @@ const listaProductos = () => {
   }
   
   export const productoServicios = {
-    listaProductos,
+    obtenerListaProductos,
     crearProducto,
     eliminarProducto,
     detalleProducto,

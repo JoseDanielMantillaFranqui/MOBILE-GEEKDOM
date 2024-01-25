@@ -1,3 +1,5 @@
+import { productoServicios } from "../servicios/productos-servicios.js";
+
 const nuevoProducto = (name, imageUrl, price, id) => {
   const card = document.createElement('li');
   card.classList.add('productos__item');
@@ -36,15 +38,6 @@ const mostrarProductos = (productos, contenedor) => {
   });
 };
 
-const obtenerProductos = () => {
-  return fetch('https://mobile-geekdom-api.onrender.com/producto')
-    .then(response => response.json())
-    .then(data => {
-      return data;
-    })
-    .catch(error => console.log(error));
-};
-
 const eliminarProducto = (id) => {
 
   // Procedemos a eliminar el producto sin especificar una versión
@@ -69,7 +62,7 @@ const eliminarProducto = (id) => {
 
 
 const listaProductos = () => {
-  obtenerProductos()
+  productoServicios.obtenerListaProductos()
     .then(data => {
       mostrarProductos(data, productosTodos); // Mostrar todos los productos en el contenedor
     })
@@ -78,3 +71,28 @@ const listaProductos = () => {
 
 // Llamar a la función listaProductos para mostrar los productos al cargar la página
 listaProductos();
+
+
+const buscarProductos = (busqueda) => {
+    if (busqueda.trim() === '') {
+      listaProductos();
+      return;
+    }
+  
+    productoServicios.obtenerListaProductos()
+      .then(data => {
+        const productosEncontrados = data.filter(producto =>
+          producto.name.toLowerCase().includes(busqueda.toLowerCase())
+        );
+  
+        mostrarProductos(productosEncontrados, productosTodos);
+      })
+      .catch(error => console.log(error));
+  };
+
+const inputBusqueda = document.querySelector('.header__barraBusqueda--input');
+inputBusqueda.addEventListener('input', (event) => {
+  const textoBusqueda = event.target.value.trim();
+  buscarProductos(textoBusqueda);
+});
+
