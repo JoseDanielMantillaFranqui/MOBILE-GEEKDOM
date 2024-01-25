@@ -75,4 +75,11 @@ inputBusqueda.addEventListener('input', (event) => {
   buscarProductos(textoBusqueda);
 });
 
+inputBusqueda.addEventListener('blur', () => {
+    setTimeout(() => {
+      barraLista.innerHTML = '';
+      barraLista.style.display = 'none';
+    }, 200);
+  });
+
 obtenerInformacion();

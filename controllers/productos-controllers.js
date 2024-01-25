@@ -83,6 +83,7 @@ inputBusqueda.addEventListener('input', (event) => {
 inputBusqueda.addEventListener('blur', () => {
   setTimeout(() => {
     barraLista.innerHTML = '';
+    barraLista.style.display = 'none';
   }, 200);
 });
 
